@@ -16,3 +16,31 @@ ifconfig wlan0 up
 ## Check the changes of the network adapter:
 
 ifconfig
+
+
+# automatic Mac change:--
+
+nano rendom.sh
+
+
+
+
+read mac
+
+ifconfig wlan0 down
+
+ifconfig wlan0 hw ether $mac
+
+ifconfig wlan0 up
+
+
+ifconfig wlan0 down
+
+ifconfig wlan0 hw ether $mac
+
+ifconfig wlan0 up
+
+ifconfig
+
+
+
