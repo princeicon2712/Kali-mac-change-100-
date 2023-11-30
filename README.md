@@ -44,3 +44,15 @@ ifconfig
 
 
 
+## mac change link:-
+
+git clone https://github.com/gt0day/AnonGT.git
+
+
+bash install.sh
+
+
+anongt
+
+anongt chngmac
+
