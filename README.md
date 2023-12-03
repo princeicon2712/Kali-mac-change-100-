@@ -8,10 +8,15 @@ apt install grep -y
 nano ip.sh
 
 read ip
+
 ifconfig wlan0 down
+
 ifconfig wlan0 $ip
+
 ifconfig wlan0 I grep $ip
+
 ifconfig wlan0 up
+
 ifconfig
 
 
