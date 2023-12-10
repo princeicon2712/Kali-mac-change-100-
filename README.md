@@ -1,6 +1,16 @@
 # mac-change/ip change
 
 
+
+
+## Automatic mac change 25-30 Secaucus
+
+
+python3 Automatic-MAC-Address-Changer.py -i wlan0 -t 25
+
+
+
+
 ## ip chang
 
 apt install grep -y
