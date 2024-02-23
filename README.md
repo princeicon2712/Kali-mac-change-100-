@@ -77,13 +77,11 @@ ifconfig
 
 ## mac change link:-
 
-git clone https://github.com/gt0day/AnonGT.git
+nano macc.sh
 
+ifconfig wlan0 down
+macchanger -r wlan0
+ifconfig wlan0 up
+ifconfig 
 
-bash install.sh
-
-
-anongt
-
-anongt chngmac
 
