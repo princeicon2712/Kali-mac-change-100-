@@ -49,7 +49,7 @@ ifconfig wlan0 up
 ifconfig
 
 
-# automatic Mac change:--
+# write Mac change:--
 
 nano rendom.sh
 
@@ -75,7 +75,7 @@ ifconfig
 
 
 
-## mac change link:-
+## mac auto change link:-
 
 nano macc.sh
 
